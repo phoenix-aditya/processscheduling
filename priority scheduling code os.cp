@@ -15,7 +15,8 @@ struct processpriority{
     int priority;
 };
 
-bool prioritycomp(processpriority a, processpriority b)
+// the structure name is wrong
+bool prioritycomp(processpriori a, processpriori b)
 {
     if(a.arrival==b.arrival)
     {
