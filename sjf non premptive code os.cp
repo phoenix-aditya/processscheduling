@@ -15,7 +15,7 @@ int arrival;
 };
 
 // here might be a mistake
-bool sjfcomp(proc a, proc b)
+bool sjfcomp(process a, process b)
 {
         return a.burst<b.burst;
 }
