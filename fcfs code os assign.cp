@@ -9,7 +9,9 @@ using namespace std;
 #include<string.h>
 
 struct process{
-int burst;
+    
+    // but to burst
+int but;
 int pid;
 int arrival;
 };
