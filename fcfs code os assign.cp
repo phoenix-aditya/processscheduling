@@ -11,7 +11,7 @@ using namespace std;
 struct process{
     
     // but to burst
-int but;
+int burst;
 int pid;
 int arrival;
 };
