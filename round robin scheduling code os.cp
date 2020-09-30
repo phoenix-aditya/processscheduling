@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 
 // the value of pi is wrong
-#define pi 
+#define pi 3.14159
 #define ll long long
 #define wh(t) int t;cin>>t; while(t--)
 #define speed  ios::sync_with_stdio(0); cin.tie(0);
