@@ -6,19 +6,21 @@
 #define endl "\n"
 #define f(i,a,b) for(int i=a;i<b;i++)
 using namespace std;
-#include<string.h>
 
-int main()
-{
-    //write code here
-    int i;
-    printf("Enter value of i");
-    scanf("%d",&i);
-    if(i>0)
-        printf("i is a positive number");
-     else
-         printf("i is negative");
-    
-    
+
+#include <stdio.h>
+int main() {
+    int number;
+
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    // true if number is less than 0
+    if (number < 0) {
+        printf("You entered %d.\n", number);
+    }
+
+    printf("The if statement is easy.");
+
     return 0;
 }
