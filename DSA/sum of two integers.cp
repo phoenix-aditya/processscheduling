@@ -10,8 +10,10 @@ using namespace std;
 
 int main()
 {
-    //write code here
-    
-    
+    int a,b,sum;
+	printf("Enter the value of a and b");
+	/nscanf("%d %d",&a,&b);
+	sum=a+b;
+    printf("Sum=%d",sum);    
     return 0;
 }
