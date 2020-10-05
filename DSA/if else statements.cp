@@ -11,6 +11,13 @@ using namespace std;
 int main()
 {
     //write code here
+    int i;
+    printf("Enter value of i");
+    scanf("%d",&i);
+    if(i>0)
+        printf("i is a positive number");
+     else
+         printf("i is negative");
     
     
     return 0;
