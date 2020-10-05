@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     //write code here
-    cout<<"blah";
+    cout<<"blah blah blah";
     
     return 0;
 }
