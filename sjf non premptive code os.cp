@@ -8,6 +8,7 @@
 using namespace std;
 #include<string.h>
 
+//this is a structure called process
 struct process{
 int burst;
 int pid;
@@ -15,7 +16,7 @@ int arrival;
 };
 
 // here might be a mistake
-bool sjfcomp(process a, process b)
+bool sjfcomp(proc a, proc b)
 {
         return a.burst<b.burst;
 }
