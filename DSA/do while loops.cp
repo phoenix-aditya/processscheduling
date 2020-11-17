@@ -6,12 +6,18 @@
 #define endl "\n"
 #define f(i,a,b) for(int i=a;i<b;i++)
 using namespace std;
-#include<string.h>
+#include <stdio.h>
+ 
+int main () {
 
-int main()
-{
-    //write code here
-    
-    
-    return 0;
+   /* local variable definition */
+   int a = 10;
+
+   /* do loop execution */
+   do {
+      printf("value of a: %d\n", a);
+      a = a + 1;
+   }while( a < 20 );
+ 
+   return 0;
 }
